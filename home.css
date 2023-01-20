@@ -678,3 +678,66 @@ Ul:hover li a:not(:hover) {
   font-weight: 400;
   text-align: justify;
 }
+.footer{
+  display: flex;
+  background:black no-repeat center;
+  background-size: cover;
+  padding-bottom: 15px;
+}
+.aline{
+  display: flex;
+  gap: 100px;
+  margin-left: 400px;
+}
+.social ul{
+  display: flex;
+  gap: 10px;
+  margin-top: 90px;
+}
+.boxx{
+  margin-top: -80px;
+}
+.message h4{
+  color: #fafaf8;
+}
+.message{
+  border-radius: 3px;
+  border-style: none;
+}
+.name input{
+  width: 160px;
+  height: 15px;
+  margin-bottom: 4px;
+  
+}
+.name li{
+  display: flex;
+  color: #ffffff;
+  margin-left: -69px;
+  gap: 5px;
+}
+.mail input{
+  width: 160px;
+  height: 15px;
+  margin-bottom: 4px;
+}
+.mail li{
+  display: flex;
+  color: #f8fbfa;
+  gap: 5px;
+}
+.message-box textarea{
+  text-align: start;
+}
+.message-box li{
+  display: flex;
+  color: #fafaf8;
+  gap: 5px;
+}
+.copyright{
+  color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
